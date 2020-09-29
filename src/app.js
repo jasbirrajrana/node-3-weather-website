@@ -15,6 +15,7 @@ const viewsPath = path.join(__dirname, '../templates/views')
 const partialPath = path.join(__dirname, '../templates/partials')
 //start an express app called app
 const app = express()
+const port = process.env.PORT || 3000
 //setup for hbs and views engine
 app.set('view engine', 'hbs')
 app.set('views', viewsPath) //alter dir of views as viewsPath
@@ -113,6 +114,6 @@ app.get('*', (req, res) => {
 })
 
 //listen app at localhost 3000
-app.listen(3000, () => {
-    console.log('Server is up on port 3000')
+app.listen(port, () => {
+    console.log('Server is up on port ' + port)
 })
