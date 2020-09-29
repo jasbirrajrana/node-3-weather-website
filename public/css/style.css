@@ -119,7 +119,7 @@ form button:hover {
 .main-content img {
     height: 110px;
     width: auto;
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 40px;
     border-radius: 50%;
