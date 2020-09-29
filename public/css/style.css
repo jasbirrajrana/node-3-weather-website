@@ -55,7 +55,7 @@ header a {
 form {
     display: flex;
     flex-direction: column;
-    background-color: orange;
+
 
 }
 
@@ -63,7 +63,7 @@ input {
 
     padding: 9px;
     border: 1px solid #cccccc;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 input:focus {
@@ -84,6 +84,7 @@ form button {
     margin-bottom: 3px;
     border-radius: 2.25px;
     max-width: 20%;
+    font-size: 20px;
 }
 
 form button:focus {
